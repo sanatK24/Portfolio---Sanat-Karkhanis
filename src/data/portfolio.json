@@ -1,0 +1,171 @@
+{
+  "profile": {
+    "name": "Sanat Karkhanis",
+    "shortName": "Sanat",
+    "tagline": "Building scalable systems and crafting seamless digital experiences",
+    "role": "Senior Software Engineer",
+    "specialization": "Full-Stack Architecture & Backend Systems",
+    "location": "San Francisco, CA",
+    "yearsOfExperience": 12,
+    "bio": "With 12+ years of experience building production systems at scale, I specialize in architecting robust backend infrastructure and designing intuitive user experiences. I'm passionate about clean code, performance optimization, and mentoring teams to ship quality products faster.",
+    "avatarSvg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='50' fill='#BBCCD7'/><circle cx='50' cy='35' r='15' fill='#0C0C0C'/><path d='M 30 60 Q 50 75 70 60' stroke='#0C0C0C' stroke-width='3' fill='none'/></svg>",
+    "social": {
+      "github": "https://github.com",
+      "linkedin": "https://linkedin.com",
+      "email": "hello@example.com",
+      "phone": "+1 (555) 123-4567",
+      "website": "https://example.com"
+    }
+  },
+  "skills": {
+    "categories": [
+      {
+        "name": "Backend",
+        "items": ["Node.js", "Python", "Go", "PostgreSQL", "Redis", "GraphQL", "REST APIs"]
+      },
+      {
+        "name": "Frontend",
+        "items": ["React", "TypeScript", "Next.js", "Tailwind CSS", "Framer Motion", "Vue.js"]
+      },
+      {
+        "name": "DevOps & Infrastructure",
+        "items": ["Docker", "Kubernetes", "AWS", "CI/CD Pipelines", "Terraform", "GCP"]
+      },
+      {
+        "name": "AI & ML",
+        "items": ["LLM Integration", "RAG Systems", "Prompt Engineering", "Vector DBs", "OpenAI API"]
+      }
+    ]
+  },
+  "experience": [
+    {
+      "company": "TechCorp",
+      "role": "Senior Backend Engineer",
+      "period": "2022 - Present",
+      "location": "San Francisco, CA",
+      "summary": "Led architecture and implementation of microservices platform serving 10M+ daily users. Improved API response times by 60% and reduced cloud costs by 40%.",
+      "highlights": [
+        "Designed and built distributed payment processing system handling $500M+ annually",
+        "Mentored 5 junior engineers through code reviews and pair programming",
+        "Reduced system latency from 800ms to 120ms through caching optimization"
+      ]
+    },
+    {
+      "company": "CloudSystems Inc",
+      "role": "Full-Stack Engineer",
+      "period": "2019 - 2022",
+      "location": "Remote",
+      "summary": "Built full-stack features for SaaS platform with 50K+ paying customers. Led migration from monolith to microservices architecture.",
+      "highlights": [
+        "Implemented real-time collaboration features using WebSockets and CRDTs",
+        "Led React component library redesign improving developer experience by 35%",
+        "Architected database schema supporting 100M+ records with sub-second queries"
+      ]
+    },
+    {
+      "company": "StartupXYZ",
+      "role": "Software Engineer",
+      "period": "2017 - 2019",
+      "location": "Boston, MA",
+      "summary": "Early engineer at pre-Series A startup. Built core product features and infrastructure from scratch.",
+      "highlights": [
+        "Developed MVP and scaled from 0 to 1M users in 18 months",
+        "Implemented CI/CD pipeline reducing deployment time from 45 min to 3 min",
+        "Built comprehensive monitoring and alerting system using Prometheus and Grafana"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "1",
+      "title": "AI-Powered Analytics Dashboard",
+      "subtitle": "Real-time data visualization with LLM integration",
+      "description": "Built an intelligent analytics dashboard that uses Claude API to generate insights from raw data. Features real-time updates, custom drill-downs, and natural language query interface.",
+      "stack": ["React", "TypeScript", "Node.js", "PostgreSQL", "Framer Motion"],
+      "role": "Lead Developer",
+      "year": 2024,
+      "link": "https://github.com",
+      "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=500&fit=crop",
+      "highlight": true
+    },
+    {
+      "id": "2",
+      "title": "Distributed Cache Layer",
+      "subtitle": "Sub-millisecond response times at scale",
+      "description": "Engineered a distributed caching system using Redis and consistent hashing. Achieved 99.99% hit rate and reduced database load by 85%.",
+      "stack": ["Redis", "Node.js", "Go", "Docker", "Kubernetes"],
+      "role": "Architect",
+      "year": 2023,
+      "link": "https://github.com",
+      "highlight": true
+    },
+    {
+      "id": "3",
+      "title": "E-Commerce Platform",
+      "subtitle": "Scalable marketplace for 50K+ sellers",
+      "description": "Led full-stack development of marketplace connecting sellers and buyers. Implemented payment processing, inventory management, and recommendation engine.",
+      "stack": ["React", "Node.js", "PostgreSQL", "Stripe API", "AWS"],
+      "role": "Technical Lead",
+      "year": 2023,
+      "link": "",
+      "highlight": false
+    },
+    {
+      "id": "4",
+      "title": "Mobile Chat Application",
+      "subtitle": "Real-time messaging with end-to-end encryption",
+      "description": "Developed secure messaging platform with real-time synchronization across web and mobile. Implemented E2E encryption and offline-first architecture.",
+      "stack": ["React", "React Native", "Node.js", "MongoDB", "WebSocket"],
+      "role": "Full-Stack Engineer",
+      "year": 2022,
+      "link": "https://github.com",
+      "highlight": false
+    }
+  ],
+  "education": [
+    {
+      "school": "Stanford University",
+      "degree": "MS",
+      "field": "Computer Science",
+      "year": 2012,
+      "details": "Specialization in Distributed Systems and Machine Learning"
+    },
+    {
+      "school": "UC Berkeley",
+      "degree": "BS",
+      "field": "Computer Science",
+      "year": 2010,
+      "details": "GPA: 3.9, Dean's List all semesters"
+    }
+  ],
+  "testimonials": [
+    {
+      "id": "1",
+      "quote": "Sanat is an exceptional engineer who combines deep technical expertise with great communication skills. He transformed our infrastructure and mentored our entire team.",
+      "name": "Sarah Chen",
+      "role": "VP Engineering at TechCorp",
+      "avatarColor": "from-pink-400 to-rose-600"
+    },
+    {
+      "id": "2",
+      "quote": "Working with Sanat was a game-changer. His ability to design scalable systems and think about the bigger picture is unmatched in our industry.",
+      "name": "Mike Johnson",
+      "role": "CTO at CloudSystems",
+      "avatarColor": "from-blue-400 to-cyan-600"
+    },
+    {
+      "id": "3",
+      "quote": "Sanat's mentorship helped me grow from a junior developer to a senior engineer. His code reviews are educational masterclasses.",
+      "name": "Emma Rodriguez",
+      "role": "Senior Engineer at StartupXYZ",
+      "avatarColor": "from-purple-400 to-indigo-600"
+    },
+    {
+      "id": "4",
+      "quote": "The systems Sanat architected are still running smoothly after years. He understands how to build things that last.",
+      "name": "Alex Park",
+      "role": "DevOps Lead at TechCorp",
+      "avatarColor": "from-green-400 to-emerald-600"
+    }
+  ]
+}

@@ -1,25 +1,11 @@
 import { motion } from 'framer-motion'
+import { Service } from '../types/portfolio'
 
-const services = [
-  {
-    title: 'Backend Architecture',
-    description: 'Designing scalable, resilient systems that handle millions of requests with sub-millisecond latency.',
-  },
-  {
-    title: 'AI/LLM Integration',
-    description: 'Leveraging cutting-edge language models to build intelligent features with RAG, prompt engineering, and vector databases.',
-  },
-  {
-    title: 'Frontend Development',
-    description: 'Creating beautiful, performant user interfaces with React, TypeScript, and modern animation frameworks.',
-  },
-  {
-    title: 'Cloud Infrastructure',
-    description: 'Setting up robust DevOps pipelines, containerization, and orchestration for production-grade deployments.',
-  },
-]
+interface ServicesSectionProps {
+  services: Service[]
+}
 
-export const ServicesSection: React.FC = () => {
+export const ServicesSection: React.FC<ServicesSectionProps> = ({ services }) => {
   return (
     <section className="py-20 px-6 bg-dark">
       <div className="max-w-4xl mx-auto">
@@ -33,7 +19,6 @@ export const ServicesSection: React.FC = () => {
             Services
           </h2>
 
-          {/* TODO: Move services to portfolio.json data structure */}
           <div className="space-y-6">
             {services.map((service, index) => (
               <motion.div

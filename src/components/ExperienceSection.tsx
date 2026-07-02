@@ -7,7 +7,7 @@ interface ExperienceSectionProps {
 
 export const ExperienceSection: React.FC<ExperienceSectionProps> = ({ experience }) => {
   return (
-    <section id="skills" className="py-20 px-6 bg-dark scroll-mt-20">
+    <section id="experience" className="py-20 px-6 bg-dark scroll-mt-20">
       <div className="max-w-4xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 20 }}

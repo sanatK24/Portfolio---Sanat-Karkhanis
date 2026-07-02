@@ -1,10 +1,11 @@
 import { Navbar } from './components/Navbar'
 import { HeroSection } from './components/HeroSection'
 import { AboutSection } from './components/AboutSection'
+import { SkillsSection } from './components/SkillsSection'
 import { ExperienceSection } from './components/ExperienceSection'
-import { ServicesSection } from './components/ServicesSection'
 import { ProjectsSection } from './components/ProjectsSection'
-import { TestimonialsSection } from './components/TestimonialsSection'
+import { LeadershipSection } from './components/LeadershipSection'
+import { CertificationsSection } from './components/CertificationsSection'
 import { Footer } from './components/Footer'
 import { usePortfolio } from './hooks/usePortfolio'
 
@@ -39,11 +40,12 @@ function App() {
     <div className="bg-dark min-h-screen">
       <Navbar onNavClick={handleNavClick} />
       <HeroSection profile={portfolio.profile} />
-      <AboutSection profile={portfolio.profile} />
+      <AboutSection profile={portfolio.profile} education={portfolio.education} />
+      <SkillsSection skills={portfolio.skills} />
       <ExperienceSection experience={portfolio.experience} />
-      <ServicesSection />
       <ProjectsSection projects={portfolio.projects} />
-      <TestimonialsSection testimonials={portfolio.testimonials} />
+      <LeadershipSection leadership={portfolio.leadership} extracurricular={portfolio.extracurricular} />
+      <CertificationsSection certifications={portfolio.certifications} />
       <Footer profile={portfolio.profile} />
     </div>
   )

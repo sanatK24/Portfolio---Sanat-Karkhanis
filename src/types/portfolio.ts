@@ -7,6 +7,12 @@ export interface Social {
   website?: string
 }
 
+export interface Stats {
+  cgpa: string
+  projectsCount: number
+  hackathonsCount: number
+}
+
 export interface Profile {
   name: string
   shortName: string
@@ -18,6 +24,7 @@ export interface Profile {
   bio: string
   avatarSvg: string
   social: Social
+  stats: Stats
 }
 
 export interface SkillCategory {
@@ -27,6 +34,11 @@ export interface SkillCategory {
 
 export interface Skills {
   categories: SkillCategory[]
+}
+
+export interface Service {
+  title: string
+  description: string
 }
 
 export interface Experience {
@@ -55,8 +67,31 @@ export interface Education {
   school: string
   degree: string
   field: string
-  year: number
+  period: string
+  location: string
   details?: string
+}
+
+export interface Certification {
+  name: string
+  issuer: string
+  date: string
+}
+
+export interface Leadership {
+  organization: string
+  role: string
+  period: string
+  location: string
+  highlights: string[]
+}
+
+export interface Extracurricular {
+  name: string
+  role: string
+  date: string
+  location: string
+  highlights: string[]
 }
 
 export interface Testimonial {
@@ -70,8 +105,12 @@ export interface Testimonial {
 export interface Portfolio {
   profile: Profile
   skills: Skills
+  services: Service[]
   experience: Experience[]
   projects: Project[]
   education: Education[]
   testimonials: Testimonial[]
+  certifications: Certification[]
+  leadership: Leadership[]
+  extracurricular: Extracurricular[]
 }

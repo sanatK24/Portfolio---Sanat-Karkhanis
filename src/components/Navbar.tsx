@@ -8,7 +8,7 @@ interface NavbarProps {
 export const Navbar: React.FC<NavbarProps> = ({ onNavClick }) => {
   const [isOpen, setIsOpen] = useState(false)
 
-  const navItems = ['HOME', 'ABOUT', 'SKILLS', 'PROJECTS', 'CONTACT']
+  const navItems = ['HOME', 'ABOUT', 'SKILLS', 'EXPERIENCE', 'PROJECTS', 'LEADERSHIP', 'CONTACT']
 
   const handleClick = (item: string) => {
     onNavClick(item)

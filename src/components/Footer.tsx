@@ -38,7 +38,7 @@ export const Footer: React.FC<FooterProps> = ({ profile }) => {
           <div>
             <h4 className="font-semibold text-white mb-4">NAVIGATE</h4>
             <ul className="space-y-3">
-              {['Home', 'About', 'Skills', 'Projects', 'Contact'].map((item) => (
+              {['Home', 'About', 'Skills', 'Experience', 'Projects', 'Leadership', 'Contact'].map((item) => (
                 <li key={item}>
                   <a
                     href={`#${item.toLowerCase()}`}
